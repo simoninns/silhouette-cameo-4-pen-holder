@@ -1,0 +1,15 @@
+{
+    "parameterSets": {
+        "design default values": {
+            "$fn": "50",
+            "display_cap": "Yes",
+            "display_holder_insert_large": "No",
+            "display_holder_insert_medium": "Yes",
+            "display_holder_insert_small": "No",
+            "display_pen_holder": "Yes",
+            "for_printing": "Display",
+            "use_colour": "Colour"
+        }
+    },
+    "fileFormatVersion": "1"
+}
