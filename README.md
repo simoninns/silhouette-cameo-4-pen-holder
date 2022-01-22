@@ -28,7 +28,7 @@ Print settings (for Prusa Slicer) are the same for all included parts:
 Once printed press the cap onto the top of the holder (if it is a little tight, simply put the cap on and off a few times to losen it up).  The pen adapters simply screw in (the thread should be ready-to-go straight off the printer).
 
 ## Tool auto-detection
-The Cameo 4 uses an automatic tool detection system which is based off the size of a rectangle of aluminium on the back of the tool.  The pen-holder design has a 14x10mm recess for the aluminium.
+The Cameo 4 uses an automatic tool detection system which is based on the size of a rectangle of aluminium on the back of the tool.  The pen-holder design has a 14x10mm recess for the aluminium.
 
 A Silhouette Studio file is included in the project that can be used to make the required aluminium.  Use 50mm wide aluminium tape (I used tesa proffessional aluminimum tape (strong) which is 50mm x 25m x 50 microns).  Aluminium tape is used in the heating/air con. industry so it's easy to source.
 

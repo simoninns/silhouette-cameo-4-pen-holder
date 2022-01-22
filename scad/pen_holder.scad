@@ -34,8 +34,8 @@ module insertion_guide()
 {
     // Insert guides
     move([0,7.75,27]) hull() {
-        move([0,0,0]) cuboid([1,2,10], chamfer=0.25);
-        move([0,-0.5,5 + 3]) cuboid([1.25 / 2,2 / 2,0.5]);
+        move([0,0,0]) cuboid([1,1,10], chamfer=0.2);
+        move([0,-0.5,5 + 3]) cuboid([1.25 / 2,1.5 / 2,0.5]);
     }
 }
 
@@ -49,7 +49,6 @@ module tool_lock()
             }
 
             move([0,0,17]) tube(h=2, od=20, , id=17, center=false);
-            
         }
 
         move([0,0,17]) cuboid([6.5, 20, 6]);
@@ -71,8 +70,7 @@ module holder_body()
             cyl(h=14, d=17, center=false);
         }
 
-        move([0,9.5,14/2]) cuboid([14,1,10+0.5], chamfer=0.5, edges=EDGES_TOP); // Alu marker recess
-
+        move([0,9.75,14/2]) cuboid([14,1,10], edges=EDGES_TOP); // Alu marker recess
         tool_lock();
     }
 
@@ -83,8 +81,8 @@ module holder_body()
     move([0,0,46 - 1]) cyl(h=5, d=8, center=false, chamfer=0.25); // tip
 
     // Insertion guides
-    move([+1,0,0]) insertion_guide();
-    move([-1,0,0]) insertion_guide();
+    move([+1.25 + 0.125,0,0]) insertion_guide();
+    move([-1.25 - 0.125,0,0]) insertion_guide();
 }
 
 module inner_profile()
