@@ -11,6 +11,10 @@ Note: This project is GPLv3 open-source. The github repository for the model (co
 ## Printing instructions
 The model has been printed and tested on the Prusa MK3S/MMU2S printer using Prusament PETG filament. All parts fit on a 20x20 printing bed.
 
+Note that the inserts are designed to be printed with the knurled end on the print bed with the rest of the parts at an angle.  This ensures that the layers are diagonal to the pressure on the pen (otherwise the part would simply snap as you inserted it).
+
+The original manufacturer's part uses blue for the small insert, white for the medium and grey for the large.  The overall body (and cap) are both white.
+
 ### Recommended print settings
 
 Print settings (for Prusa Slicer) are the same for all included parts:
@@ -22,6 +26,20 @@ Print settings (for Prusa Slicer) are the same for all included parts:
 
 ## Assembly
 Once printed press the cap onto the top of the holder (if it is a little tight, simply put the cap on and off a few times to losen it up).  The pen adapters simply screw in (the thread should be ready-to-go straight off the printer).
+
+## Tool auto-detection
+The Cameo 4 uses an automatic tool detection system which is based off the size of a rectangle of aluminium on the back of the tool.  The pen-holder design has a 14x10mm recess for the aluminium.
+
+A Silhouette Studio file is included in the project that can be used to make the required aluminium.  Use 50mm wide aluminium tape (I used tesa proffessional aluminimum tape (strong) which is 50mm x 25m x 50 microns).  Aluminium tape is used in the heating/air con. industry so it's easy to source.
+
+The included file uses the auto-blade with the following settings:
+
+* Blade Depth: 4
+* Force: 14
+* Passes: 1
+* Speed: 5
+
+Simply cut about 150mm of aluminium tape and affix to a cutting board (make sure it's as smooth as possible). Then, after cutting, place 2 pieces (one on top of the other) in the provided recess on the tool.  The Cameo will then auto-detect the pen holder just like the manufacturer's original part.
 
 ## Author
 The Silhouette Cameo 4 Pen Holder is designed and maintained by Simon Inns.
