@@ -2,9 +2,13 @@
 ## Overview
 A 3D printable pen-holder tool for the Silhouette Cameo 4 cutter designed to be as attractive, functional and useful as the original manufacturer's part.
 
+<img src="/Pictures/Photo/IMG_4248.jpg" width="800">
+
 As per the original holder, this version comes with small, medium and large pen-holders and a cap to easily set the correct level for the pen nib.
 
 The whole design is 3D printable with no need for any addition hardware.
+
+<img src="/Pictures/Photo/IMG_4250.jpg" width="800">
 
 Note: This project is GPLv3 open-source. The github repository for the model (containing the complete OpenSCAD project) can be found at https://github.com/simoninns/silhouette-cameo-4-pen-holder
 
@@ -40,6 +44,8 @@ The included file uses the auto-blade with the following settings:
 * Speed: 5
 
 Simply cut about 150mm of aluminium tape and affix to a cutting board (make sure it's as smooth as possible). Then, after cutting, place 2 pieces (one on top of the other) in the provided recess on the tool.  The Cameo will then auto-detect the pen holder just like the manufacturer's original part.
+
+<img src="/Pictures/Photo/IMG_4256.jpg" width="800">
 
 ## Author
 The Silhouette Cameo 4 Pen Holder is designed and maintained by Simon Inns.

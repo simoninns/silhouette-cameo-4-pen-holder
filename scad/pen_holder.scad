@@ -70,7 +70,7 @@ module holder_body()
             cyl(h=14, d=17, center=false);
         }
 
-        move([0,9.75,14/2]) cuboid([14,1,10], edges=EDGES_TOP); // Alu marker recess
+        move([0,9.5,14/2 + 0.2]) cuboid([14.2,1,10.2], edges=EDGES_TOP); // Alu marker recess
         tool_lock();
     }
 
